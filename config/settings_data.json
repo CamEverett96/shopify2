@@ -8,7 +8,8 @@
             "type": "announcement",
             "settings": {
               "heading": "50% off for July 4th",
-              "color_scheme": "background-1",
+              "background_color": "#ccd654",
+              "announcement_text_color": "#ef0000",
               "link": "shopify:\/\/products\/adidas-classic-backpack"
             }
           }
