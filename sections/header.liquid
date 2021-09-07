@@ -1,7 +1,7 @@
 {% case section.settings.header_type %}
-<!-- Start of header1-->
 {% when 'header1' %}
-
+  {{ 'Header1.css' | asset_url | stylesheet_tag }}
+<!-- STARTING HEADER 1 -->
 <header class="header header1">
 
   <ul class="header1__collections-nav">
@@ -13,20 +13,22 @@
     </li>
     {%- else -%}
     <li class="header1__collection-link">
-      <a href="{{ link.url }}">{{ link.title | escape }}<i class="fas fa-chevron-down"></i>
-      </a>
+      <a href="{{ link.url }}">{{ link.title | escape }} <i class="fas fa-chevron-down"></i></a>
 
       <ul class="collection-link__sub-links">
         {%- for childlink in link.links -%}
         <li><a href="{{ childlink.url }}">{{ childlink.title | escape }}</a></li>
-        {%-endfor%}
+        {%- endfor -%}
       </ul>
     </li>
     {%- endif -%}
     {%- endfor -%}
-    {%- endif -%}
+    {%- endif %}
   </ul>
-  <div class="header1__logo"><a href="{{ routes.root_url }}"> {%- if section.settings.logo != blank -%}
+
+  <div class="header1__logo">
+    <a href="{{ routes.root_url }}">
+      {%- if section.settings.logo != blank -%}
       {%- assign image_size = section.settings.logo_width | append: 'x' -%}
       <img
         srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
@@ -34,7 +36,7 @@
         width="{{ section.settings.logo.width }}" height="{{ section.settings.logo.height }}"
         alt="{{ section.settings.logo.alt | default: shop.name | escape }}">
       {%- else -%}
-      <span class="h2">{{ shop.name }}</span>
+      {{ shop.name }}
       {%- endif -%}
     </a>
   </div>
@@ -48,33 +50,43 @@
     </li>
     {%- else -%}
     <li class="header1__collection-link">
-      <a href="{{ link.url }}">{{ link.title | escape }}<i class="fas fa-chevron-down"></i>
-      </a>
+      <a href="{{ link.url }}">{{ link.title | escape }} <i class="fas fa-chevron-down"></i></a>
 
       <ul class="collection-link__sub-links">
         {%- for childlink in link.links -%}
         <li><a href="{{ childlink.url }}">{{ childlink.title | escape }}</a></li>
-        {%-endfor%}
+        {%- endfor -%}
       </ul>
     </li>
     {%- endif -%}
     {%- endfor -%}
-    {%- endif -%}
-    <a href="{{ routes.cart_url }}"><i class="fas fa-shopping-cart"></i>
+    {%- endif %}
+
+    <a href="{{ routes.cart_url }}">
+      <i class="fas fa-shopping-cart"></i>
     </a>
     {%- if shop.customer_accounts_enabled -%}
-    <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"> </a>
-    {%- endif -%} <a
-      href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}">
+    <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}">
       <i class="fas fa-user"></i>
     </a>
-    {%-endif- %}
+    {%- endif -%}
+
   </ul>
 </header>
-<!-- Start of header2-->
+
+
+
+
+
+
+
 {% when 'header2' %}
+<!-- STARTING HEADER 2 -->
+{{ 'Header2.css' | asset_url | stylesheet_tag }}
 <header class="header header2">
-  <div class="header2__logo"><a href=" {{ routes.root_url }}"> {%- if section.settings.logo != blank -%}
+  <div class="header2__logo">
+    <a href="{{ routes.root_url }}">
+      {%- if section.settings.logo != blank -%}
       {%- assign image_size = section.settings.logo_width | append: 'x' -%}
       <img
         srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
@@ -82,7 +94,7 @@
         width="{{ section.settings.logo.width }}" height="{{ section.settings.logo.height }}"
         alt="{{ section.settings.logo.alt | default: shop.name | escape }}">
       {%- else -%}
-      <span class="h2">{{ shop.name }}</span>
+      {{ shop.name }}
       {%- endif -%}
     </a>
   </div>
@@ -90,41 +102,51 @@
     {%- if section.settings.menu != blank -%}
     {%- for link in section.settings.menu.links -%}
     {%- if link.links == blank -%}
-    <li class="header2__collection-link">
+    <li class="header1__collection-link">
       <a href="{{ link.url }}">{{ link.title | escape }}</a>
     </li>
     {%- else -%}
     <li class="header2__collection-link">
-      <a href="{{ link.url }}">{{ link.title | escape }}<i class="fas fa-chevron-down"></i>
-      </a>
+      <a href="{{ link.url }}">{{ link.title | escape }} <i class="fas fa-chevron-down"></i></a>
 
       <ul class="collection-link__sub-links">
         {%- for childlink in link.links -%}
         <li><a href="{{ childlink.url }}">{{ childlink.title | escape }}</a></li>
-        {%-endfor%}
+        {%- endfor -%}
       </ul>
     </li>
     {%- endif -%}
     {%- endfor -%}
-    {%- endif -%}
+    {%- endif %}
   </ul>
-  <div class="header2__collections-nav"><a href="{{ routes.cart_url }}">
-    <i class="fas fa-shopping-cart"></i></a>
-    
+  <div class="header2__collections-nav">
+    <a href="{{ routes.cart_url }}">
+      <i class="fas fa-shopping-cart"></i>
+    </a>
     {%- if shop.customer_accounts_enabled -%}
-    <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"> </a>
-    {%- endif -%} <a
-      href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}">
+    <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}">
       <i class="fas fa-user"></i>
     </a>
-   
-    {%-endif-%}</div>
-        </header>
-<!-- Start of header3-->
-{% when 'header3' %}
+    {%- endif -%}
+  </div>
+</header>
 
+
+
+
+
+
+
+
+
+
+{% when 'header3' %}
+<!-- STARTING HEADER 3 -->
+{{ 'Header3.css' | asset_url | stylesheet_tag }}
 <header class="header header3">
-  <div class="header3__logo"><a href=" {{ routes.root_url }}"> {%- if section.settings.logo != blank -%}
+  <div class="header3__logo">
+    <a href="{{ routes.root_url }}">
+      {%- if section.settings.logo != blank -%}
       {%- assign image_size = section.settings.logo_width | append: 'x' -%}
       <img
         srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
@@ -132,7 +154,7 @@
         width="{{ section.settings.logo.width }}" height="{{ section.settings.logo.height }}"
         alt="{{ section.settings.logo.alt | default: shop.name | escape }}">
       {%- else -%}
-      <span class="h2">{{ shop.name }}</span>
+      {{ shop.name }}
       {%- endif -%}
     </a>
   </div>
@@ -145,8 +167,8 @@
     </li>
     {%- else -%}
     <li class="header3__collection-link">
-      <a href="{{ link.url }}">{{ link.title | escape }}<i class="fas fa-chevron-down"></i>
-      </a>
+      <a href="{{ link.url }}">{{ link.title | escape }} <i class="fas fa-chevron-down"></i></a>
+
       <ul class="collection-link__sub-links">
         {%- for childlink in link.links -%}
         <li><a href="{{ childlink.url }}">{{ childlink.title | escape }}</a></li>
@@ -155,25 +177,83 @@
     </li>
     {%- endif -%}
     {%- endfor -%}
-    {%- endif -%}
+    {%- endif %}
     <li>
-      <a href="{{ routes.cart_url }}"><i class="fas fa-shopping-cart"></i>
+      <a href="{{ routes.cart_url }}">
+        <i class="fas fa-shopping-cart"></i>
       </a>
     </li>
     <li>
       {%- if shop.customer_accounts_enabled -%}
-    <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"> </a>
-    {%- endif -%} <a
-      href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}">
-      <i class="fas fa-user"></i>
-    </a>
-   
-    {%-endif-%}
+      <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}">
+        <i class="fas fa-user"></i>
+      </a>
+    {%- endif -%}
     </li>
-    </ul>
+    
+    
 </header>
 
+
 {% endcase %}
+<!-- 
+<script>
+  console.log('loaded javascript from header')
+  // Get body element
+  const bodyTag = document.getElementsByTagName('body')[0];
+  const headerWrapper = document.getElementById('shopify-section-header');
+  // check for class fixed-nav
+  if(bodyTag.classList.contains('fixed-nav') && bodyTag.classList.contains('transparent-nav')) {
+    // change styles of header wrapper
+    headerWrapper.style.position = 'fixed'
+    headerWrapper.style.top = 0;
+    headerWrapper.style.left = 0;
+    headerWrapper.style.width = '100%';
+    headerWrapper.style.zIndex = '7';
+    
+    // remove class of transparent bg when scrolled
+    const onScroll = () => {
+      const scrollLocation = document.documentElement.scrollTop;
+      if(scrollLocation > 50) {
+        bodyTag.classList.remove('transparent-nav')
+      } else {
+        bodyTag.classList.add('transparent-nav')
+      }
+    }
+    window.addEventListener('scroll', onScroll)
+  }
+  
+</script> -->
+<script src="{{ 'zepto.min.js' | asset_url }}"></script>
+
+<script>
+  // Get body element
+  const bodyTag = $('body');
+  const headerWrapper = $('#shopify-section-header');
+  // check for class fixed-nav
+  if(bodyTag.hasClass('fixed-nav')) {
+    // change styles of header wrapper
+    headerWrapper.css('position','fixed')
+    headerWrapper.css('top', 0);
+    headerWrapper.css('left', 0);
+    headerWrapper.css('width', '100%');
+    headerWrapper.css('z-index', '7');
+    
+    if(bodyTag.hasClass('transparent-nav')) {
+      // remove class of transparent bg when scrolled
+      const onScroll = () => {
+        const scrollLocation = document.documentElement.scrollTop;
+        if(scrollLocation > 5) {
+          bodyTag.removeClass('transparent-nav')
+        } else {
+          bodyTag.addClass('transparent-nav')
+        }
+      }
+      window.addEventListener('scroll', onScroll)
+    }
+    
+  }
+</script>
 
 {% schema %}
 {
@@ -225,19 +305,6 @@
 "id": "menu_two",
 "default": "main-menu",
 "label": "Alternate Menu"
-},
-{
-"type": "checkbox",
-"id": "show_line_separator",
-"default": true,
-"label": "t:sections.header.settings.show_line_separator.label"
-},
-{
-"type": "checkbox",
-"id": "enable_sticky_header",
-"default": true,
-"label": "t:sections.header.settings.enable_sticky_header.label",
-"info": "t:sections.header.settings.enable_sticky_header.info"
 }
 ]
 }
