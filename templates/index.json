@@ -42,19 +42,19 @@
         "1628451172c00fbb03-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "air-jordan-1-off-x-white"
           }
         },
         "1628451172c00fbb03-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "dr-martens"
           }
         },
         "1628451172c00fbb03-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "nike"
           }
         }
       },
@@ -64,7 +64,7 @@
         "1628451172c00fbb03-2"
       ],
       "settings": {
-        "container_shape": "square",
+        "container_shape": "rectangle",
         "image_fit": "contain",
         "background": "#ffffff",
         "opacity": 100,
@@ -96,7 +96,7 @@
         "collection": "adidas",
         "total_products": 16,
         "container_shape": "rectangle",
-        "image_fit": "cover",
+        "image_fit": "contain",
         "background": "#edeff5",
         "opacity": 100,
         "show_title": true,
