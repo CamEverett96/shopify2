@@ -70,6 +70,7 @@
 }
 
 .article-template__link .icon-wrap {
+  width: 1.5rem;
   margin-right: 1rem;
   transform: rotate(180deg);
 }

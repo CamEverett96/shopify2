@@ -18,36 +18,24 @@ cart-items.is-empty .title-wrapper-with-link,
 .cart__warnings {
   display: none;
   text-align: center;
-  padding: 3rem 0 1rem;
+  padding: 7rem 0;
 }
 
 .cart__empty-text {
-  margin: 4.5rem 0 2rem;
+  margin: 4.5rem 0 5.5rem;
 }
 
 .cart__contents > * + * {
   margin-top: 2.5rem;
 }
 
-.cart__login-title {
-  margin: 5.5rem 0 0.5rem;
-}
-
-.cart__login-paragraph {
-  margin-top: 0.8rem;
-}
-
-.cart__login-paragraph a {
-  font-size: inherit;
-}
-
 @media screen and (min-width: 990px) {
   .cart__warnings {
-    padding: 7rem 0 1rem;
+    padding: 10rem 0 15rem;
   }
 
   .cart__empty-text {
-    margin: 0 0 3rem;
+    margin: 5rem 0 6rem;
   }
 }
 

@@ -94,18 +94,15 @@
   padding-bottom: 1rem;
 }
 
+@media screen and (min-width: 750px) {
+  .customer tbody td {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
 .customer td:empty {
   display: initial;
-}
-
-.customer thead th {
-  font-size: 1.2rem;
-  letter-spacing: 0.07rem;
-  text-transform: uppercase;
-}
-
-.customer tbody td:first-of-type {
-  padding-top: 4rem;
 }
 
 @media screen and (min-width: 750px) {
@@ -117,20 +114,30 @@
   }
 
   .customer thead th,
-  .customer tbody td {
+  .customer tbody td:first-of-type {
     padding-top: 2.4rem;
     padding-bottom: 2.4rem;
   }
+}
 
+.customer thead th {
+  font-size: 1.2rem;
+  letter-spacing: 0.07rem;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 750px) {
   .customer th:first-of-type,
   .customer td:first-of-type {
     padding-left: 2.2rem;
   }
+}
 
-  .customer tbody td {
-    vertical-align: top;
-  }
+.customer tbody td:first-of-type {
+  padding-top: 4rem;
+}
 
+@media screen and (min-width: 750px) {
   .customer tbody td:first-of-type {
     padding-top: 2.4rem;
   }
@@ -214,9 +221,7 @@
   }
 
   .customer td::before {
-    color: rgba(var(--color-foreground), 0.75);
     content: attr(data-label);
-    font-size: 1.4rem;
     padding-right: 2rem;
     text-transform: uppercase;
     flex-grow: 1;
@@ -374,7 +379,7 @@
 /* Account/Order */
 :is(.account, .order) {
   margin: 6rem auto 9rem;
-  max-width: var(--page-width);
+  max-width: 120rem;
   padding: 0 2rem;
 }
 
@@ -419,7 +424,7 @@
 
 :is(.account, .order) h2 {
   margin-top: 4rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 @media screen and (min-width: 990px) {
@@ -435,7 +440,6 @@
 
 .account a svg {
   width: 1.5rem;
-  margin-bottom: -0.03rem;
   margin-right: 1rem;
 }
 
@@ -460,6 +464,7 @@
 
 .account table td:first-of-type a:hover {
   box-shadow: 0 0 0 0.2rem rgba(var(--color-link), 0.2);
+  color: rgb(var(--color-link));
 }
 
 .order td:first-of-type {
@@ -532,7 +537,7 @@
   border: 0.01rem solid rgba(var(--color-foreground), 0.2);
   padding: 1rem;
   margin-top: 1rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-align: left;
 }
 
@@ -573,7 +578,12 @@
 }
 
 .order table a {
-  line-height: 1.3;
+  color: var(--color-foreground-85);
+  line-height: 1.2;
+}
+
+.order table a:hover {
+  color: rgba(var(--color-foreground), 0.75);
 }
 
 .order tbody tr:first-of-type td:first-of-type > div {

@@ -157,16 +157,6 @@
           "info": "https://vimeo.com/shopify"
         }
       }
-    },
-    "currency_format": {
-      "name": "Valuutan muoto",
-      "settings": {
-        "content": "Valuuttakoodit",
-        "currency_code_enabled": {
-          "label": "Näytä valuuttakoodit"
-        },
-        "paragraph": "Ostoskorin ja kassan hinnat näyttävät aina valuuttakoodit. Esimerkki: $1.00 USD."
-      }
     }
   },
   "sections": {
@@ -496,9 +486,6 @@
         },
         "show_vendor": {
           "label": "Näytä myyjä"
-        },
-        "show_image_outline": {
-          "label": "Näytä kuvan ääriviiva"
         }
       },
       "presets": {
@@ -947,6 +934,9 @@
           "label": "Ota suodatus käyttöön",
           "info": "[Mukauta suodattimia](ylläpitäjä > valikot)"
         },
+        "enable_sort": {
+          "label": "Ota lajittelu käyttöön"
+        },
         "enable_filtering": {
           "label": "Ota suodatus käyttöön",
           "info": "[Mukauta suodattimia](ylläpitäjä > valikot)"
@@ -959,12 +949,6 @@
         },
         "header__3": {
           "content": "Tuotekortti"
-        },
-        "show_image_outline": {
-          "label": "Näytä kuvan ääriviiva"
-        },
-        "enable_sort": {
-          "label": "Ota lajittelu käyttöön"
         }
       }
     },
@@ -1292,7 +1276,7 @@
         "show_secondary_image": {
           "label": "Näytä toinen kuva osoittaessa"
         },
-        "add_image_padding": {
+        "enable_image_padding": {
           "label": "Lisää kuvan täyttö"
         },
         "show_vendor": {
@@ -1309,9 +1293,6 @@
         },
         "article_show_author": {
           "label": "Näytä tekijä"
-        },
-        "show_image_outline": {
-          "label": "Näytä kuvan ääriviiva"
         }
       }
     },
@@ -1498,9 +1479,6 @@
         },
         "paragraph__1": {
           "content": "Dynaamisissa suosituksissa käytetään tilaus- ja tuotetietoja, jotta suositukset muuttuvat ja paranevat ajan myötä. [Lisätietoja](https://help.shopify.com/en/themes/development/recommended-products)"
-        },
-        "show_image_outline": {
-          "label": "Näytä kuvan ääriviiva"
         }
       }
     },

@@ -191,7 +191,7 @@
       "new_subtotal": "Yeni alt toplam",
       "note": "Siparişe özel talimatlar",
       "checkout": "Ödeme",
-      "empty": "Sepetiniz boş.",
+      "empty": "Sepetiniz boş",
       "cart_error": "Sepetiniz güncellenirken bir hata oluştu. Lütfen tekrar deneyin.",
       "cart_quantity_error_html": "Sepetinize bu üründen yalnızca [quantity] adet ekleyebilirsiniz.",
       "taxes_and_shipping_policy_at_checkout_html": "Vergiler ve <a href=\"{{ link }}\">kargo</a>, ödeme sayfasında hesaplanır",
@@ -204,11 +204,7 @@
         "total": "Toplam",
         "quantity": "Adet"
       },
-      "update": "Güncelle",
-      "login": {
-        "title": "Hesabınız var mı?",
-        "paragraph_html": "Daha hızlı ödeme yapmak için <a href=\"{{ link }}\" class=\"link underlined-link\">oturum açın</a>."
-      }
+      "update": "Güncelle"
     },
     "footer": {
       "payment": "Ödeme yöntemleri",
@@ -231,8 +227,8 @@
       "sort_by_label": "Sıralama ölçütü:",
       "sort_button": "Sırala",
       "product_count": {
-        "one": "{{ count }}/{{ product_count }} ürün",
-        "other": "{{ count }}/{{ product_count }} ürün"
+        "one": "{{ count }} üründen {{ product_count }} tanesi gösteriliyor",
+        "other": "{{ count }} üründen {{ product_count }} tanesi gösteriliyor"
       },
       "empty": "Ürün bulunamadı",
       "apply": "Uygula",
@@ -240,7 +236,7 @@
       "clear_all": "Tümünü temizle",
       "from": "Kimden",
       "filter_and_sort": "Filtrele ve sırala",
-      "filter_by_label": "Filtre:",
+      "filter_by_label": "Filtreleme ölçütü:",
       "filter_button": "Filtrele",
       "max_price": "En yüksek fiyat: {{ price }}",
       "reset": "Sıfırla",
@@ -249,14 +245,7 @@
       "filters_selected": {
         "one": "{{ count }} seçildi",
         "other": "{{ count }} seçildi"
-      },
-      "product_count_simple": {
-        "one": "{{ count }} ürün",
-        "other": "{{ count }} ürün"
       }
-    },
-    "video": {
-      "load_video": "Videoyu yükle: {{ description }}"
     }
   },
   "localization": {

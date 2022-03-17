@@ -214,12 +214,14 @@
     // remove class of transparent bg when scrolled
     const onScroll = () => {
       const scrollLocation = document.documentElement.scrollTop;
+
       if(scrollLocation > 50) {
         bodyTag.classList.remove('transparent-nav')
       } else {
         bodyTag.classList.add('transparent-nav')
       }
     }
+
     window.addEventListener('scroll', onScroll)
   }
   
@@ -243,12 +245,14 @@
       // remove class of transparent bg when scrolled
       const onScroll = () => {
         const scrollLocation = document.documentElement.scrollTop;
+
         if(scrollLocation > 5) {
           bodyTag.removeClass('transparent-nav')
         } else {
           bodyTag.addClass('transparent-nav')
         }
       }
+
       window.addEventListener('scroll', onScroll)
     }
     

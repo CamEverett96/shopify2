@@ -4,12 +4,51 @@
     "theme_name": "Dawn",
     "theme_version": "1.1.0",
     "theme_author": "Shopify",
-    "theme_documentation_url": "https://shopify.dev/themes/tools/dawn",
-    "theme_support_url": "https://support.shopify.com/"
+    "theme_documentation_url": "https:\/\/shopify.dev\/themes\/tools\/dawn",
+    "theme_support_url": "https:\/\/support.shopify.com\/"
+  },
+  {
+    "name": "Header Settings",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Global Styles"
+      },
+      {
+        "type": "color",
+        "id": "header_bg",
+        "default": "#f7f9fd",
+        "label": "Body Background",
+        "info": "This is the background color for the whole site"
+      },
+      {
+        "type": "checkbox",
+        "id": "header_sticky",
+        "label": "Stick Header To The Top",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "header_transparent",
+        "label": "Header Transparent",
+        "default": true
+      }
+    ]
   },
   {
     "name": "t:settings_schema.colors.name",
     "settings": [
+      {
+        "type": "header",
+        "content": "Global Styles"
+      },
+      {
+        "type": "color",
+        "id": "body_bg",
+        "default": "#f7f9fd",
+        "label": "Body Background",
+        "info": "This is the background color for the whole site"
+      },
       {
         "type": "header",
         "content": "t:settings_schema.colors.settings.header__1.content"
@@ -167,27 +206,6 @@
     ]
   },
   {
-    "name": "t:settings_schema.layout.name",
-    "settings": [
-      {
-        "type": "select",
-        "id": "page_width",
-        "options": [
-          {
-            "value": "1200",
-            "label": "t:settings_schema.layout.settings.page_width.options__1.label"
-          },
-          {
-            "value": "1600",
-            "label": "t:settings_schema.layout.settings.page_width.options__2.label"
-          }
-        ],
-        "default": "1600",
-        "label": "t:settings_schema.layout.settings.page_width.label"
-      }
-    ]
-  },
-  {
     "name": "t:settings_schema.social-media.name",
     "settings": [
       {
@@ -258,25 +276,6 @@
         "id": "favicon",
         "label": "t:settings_schema.favicon.settings.favicon.label",
         "info": "t:settings_schema.favicon.settings.favicon.info"
-      }
-    ]
-  },
-  {
-    "name": "t:settings_schema.currency_format.name",
-    "settings": [
-      {
-        "type": "header",
-        "content": "t:settings_schema.currency_format.settings.content"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.currency_format.settings.paragraph"
-      },
-      {
-        "type": "checkbox",
-        "id": "currency_code_enabled",
-        "label": "t:settings_schema.currency_format.settings.currency_code_enabled.label",
-        "default": true
       }
     ]
   }

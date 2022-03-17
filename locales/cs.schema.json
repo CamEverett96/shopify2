@@ -157,16 +157,6 @@
           "info": "https://vimeo.com/shopify"
         }
       }
-    },
-    "currency_format": {
-      "name": "Formát měny",
-      "settings": {
-        "content": "Kódy měn",
-        "currency_code_enabled": {
-          "label": "Zobrazit kódy měn"
-        },
-        "paragraph": "Košík a ceny na pokladně vždy zahrnují kódy měn. Příklad: 1,00 USD ($)"
-      }
     }
   },
   "sections": {
@@ -496,9 +486,6 @@
         },
         "show_vendor": {
           "label": "Zobrazit dodavatele"
-        },
-        "show_image_outline": {
-          "label": "Zobrazit obrys obrázku"
         }
       },
       "presets": {
@@ -947,6 +934,9 @@
           "label": "Povolit filtrování",
           "info": "[Přizpůsobte si filtry](/admin/menus)"
         },
+        "enable_sort": {
+          "label": "Povolit řazení"
+        },
         "enable_filtering": {
           "label": "Povolit filtrování",
           "info": "[Přizpůsobte si filtry](/admin/menus)"
@@ -959,12 +949,6 @@
         },
         "header__3": {
           "content": "Karta produktu"
-        },
-        "show_image_outline": {
-          "label": "Zobrazit obrys obrázku"
-        },
-        "enable_sort": {
-          "label": "Povolit řazení"
         }
       }
     },
@@ -1296,7 +1280,7 @@
         "show_secondary_image": {
           "label": "Zobrazit druhý obrázek po najetí myší/prstem"
         },
-        "add_image_padding": {
+        "enable_image_padding": {
           "label": "Přidat vnitřní okraj obrázku"
         },
         "show_vendor": {
@@ -1313,9 +1297,6 @@
         },
         "article_show_author": {
           "label": "Zobrazit autora"
-        },
-        "show_image_outline": {
-          "label": "Zobrazit obrys obrázku"
         }
       }
     },
@@ -1506,9 +1487,6 @@
         },
         "paragraph__1": {
           "content": "Dynamická doporučení využívají informace o objednávkách a produktech, aby se postupem času měnila a vylepšovala. [Zjistit více](https://help.shopify.com/en/themes/development/recommended-products)"
-        },
-        "show_image_outline": {
-          "label": "Zobrazit obrys obrázku"
         }
       }
     },

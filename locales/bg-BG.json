@@ -204,11 +204,7 @@
         "quantity": "Количество"
       },
       "update": "Актуализиране",
-      "note": "Специални инструкции за поръчката",
-      "login": {
-        "title": "Имате профил?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Влезте</a> за по-бързо преминаване към плащане."
-      }
+      "note": "Специални инструкции за поръчката"
     },
     "footer": {
       "payment": "Начини на плащане",
@@ -228,7 +224,7 @@
     },
     "collection_template": {
       "title": "Колекция",
-      "sort_by_label": "Сортиране по:",
+      "sort_by_label": "Сортиране по",
       "sort_button": "Сортиране",
       "empty": "Не са открити продукти",
       "apply": "Приложи",
@@ -236,7 +232,7 @@
       "clear_all": "Изчисти всички",
       "from": "От",
       "filter_and_sort": "Филтриране и сортиране",
-      "filter_by_label": "Филтър:",
+      "filter_by_label": "Филтриране по",
       "filter_button": "Филтър",
       "filters_selected": {
         "one": "Избрани: {{ count }}",
@@ -247,16 +243,9 @@
       "to": "До",
       "use_fewer_filters_html": "Използвайте по-малко филтри или <a class=\"{{ class }}\" href=\"{{ link }}\">изчистете всички</a>",
       "product_count": {
-        "one": "{{ product_count }} от {{ count }} продукт",
-        "other": "{{ product_count }} от {{ count }} продукта"
-      },
-      "product_count_simple": {
-        "one": "{{ count }} продукт",
-        "other": "{{ count }} продукта"
+        "one": "Показан {{ product_count }} от {{ count }} продукт",
+        "other": "Показани {{ product_count }} от {{ count }} продукта"
       }
-    },
-    "video": {
-      "load_video": "Зареждане на видео: {{ description }}"
     }
   },
   "localization": {

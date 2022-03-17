@@ -3,31 +3,16 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
-        "blocks": {
-          "announcement-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "heading": "50% off for July 4th",
-              "background_color": "#ccd654",
-              "announcement_text_color": "#00d633",
-              "link": "shopify:\/\/products\/adidas-classic-backpack"
-            }
-          }
-        },
-        "block_order": [
-          "announcement-bar-0"
-        ],
         "settings": {
         }
       },
       "header": {
         "type": "header",
         "settings": {
+          "header_type": "header1",
           "logo_width": 100,
-          "logo_position": "middle-left",
           "menu": "main-menu",
-          "show_line_separator": true,
-          "enable_sticky_header": true
+          "menu_two": "main-menu"
         }
       },
       "footer": {
@@ -45,13 +30,11 @@
           "footer-0"
         ],
         "settings": {
-          "color_scheme": "background-1",
+          "footer_p": "I ' m baby viral XOXO jean shorts bushwick lyft. Pour-over man braid distillery, vegan vice meditation brunch cronut. Hella 3 wolf moon kogi, man braid quinoa tumeric umami meggings. Butcher church-key cray, synth vice listicle master cleanse tote bag disrupt semiotics chillwave typewriter post-ironic.",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
+          "newsletter_heading": "Sign up to our emails",
           "show_social": false,
-          "enable_country_selector": true,
-          "enable_language_selector": true,
-          "payment_enable": true
+          "footer_bottom_menu": "main-menu"
         }
       }
     },
