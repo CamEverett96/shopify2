@@ -144,18 +144,11 @@
           "settings": {
             "collection": "converse"
           }
-        },
-        "164757020657532cc1-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
         }
       },
       "block_order": [
         "164757020657532cc1-0",
-        "164757020657532cc1-1",
-        "164757020657532cc1-2"
+        "164757020657532cc1-1"
       ],
       "settings": {
         "container_shape": "square",
@@ -169,6 +162,24 @@
         "md_col": "col-md-6",
         "sm_col": "col-sm-6"
       }
+    },
+    "164757088328e2d877": {
+      "type": "collection-products-1",
+      "settings": {
+        "collection": "products",
+        "total_products": 4,
+        "container_shape": "rectangle",
+        "image_fit": "contain",
+        "background": "#FFFFFF",
+        "opacity": 100,
+        "show_title": true,
+        "show_price": true,
+        "xxl_col": "col-xxl-3",
+        "xl_col": "col-xl-4",
+        "lg_col": "col-lg-6",
+        "md_col": "col-md-6",
+        "sm_col": "col-sm-6"
+      }
     }
   },
   "order": [
@@ -176,6 +187,7 @@
     "1628451172c00fbb03",
     "162845116200ef6b93",
     "16284512746d6f5dbd",
-    "1647570206ee5baaf1"
+    "1647570206ee5baaf1",
+    "164757088328e2d877"
   ]
 }
