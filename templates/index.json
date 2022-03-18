@@ -82,12 +82,12 @@
       "settings": {
         "hero_height": "100vh",
         "image1": "shopify:\/\/shop_images\/portrait-of-man-with-plant.jpg",
-        "background1": "#000000",
+        "background1": "#1a93e6",
         "opacity1": 50,
         "button_label1": "Button label",
         "button_link1": "",
         "image2": "shopify:\/\/shop_images\/fashion-model-in-pink.jpg",
-        "background2": "#000000",
+        "background2": "#c2b3a5",
         "opacity2": 50,
         "button_label2": "Button label",
         "button_link2": ""
