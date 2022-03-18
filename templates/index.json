@@ -43,7 +43,7 @@
         "1628451172c00fbb03-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "air-jordan-1-off-x-white"
+            "collection": "adidas"
           }
         },
         "1628451172c00fbb03-1": {
@@ -111,20 +111,6 @@
         "sm_col": "col-sm-6"
       }
     },
-    "featured_products": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "collection": "",
-        "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_vendor": false
-      }
-    },
     "16284512103cad8520": {
       "type": "hero-two",
       "settings": {
@@ -145,14 +131,14 @@
         "16284512746d6f5dbd-0": {
           "type": "heading",
           "settings": {
-            "title": "Title",
-            "title_size": "md"
+            "title": "40% off!",
+            "title_size": "xl"
           }
         },
         "16284512746d6f5dbd-1": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Example message I ' m baby kogi cardigan kitsch hammock banjo. Typewriter viral man braid hot chicken, farm-to-table fashion axe intelligentsia lomo green juice ramps irony succulents."
+            "paragraph": "Shop now limited time offer on all products!"
           }
         },
         "16284512746d6f5dbd-2": {
@@ -169,7 +155,8 @@
         "16284512746d6f5dbd-2"
       ],
       "settings": {
-        "hero_height": "50vh",
+        "hero_height": "75vh",
+        "image": "shopify:\/\/shop_images\/wallet-cash.jpg",
         "background": "#000000",
         "opacity": 50,
         "info_alignment": "center"
@@ -181,7 +168,6 @@
     "1628451172c00fbb03",
     "162845116200ef6b93",
     "1628451179281ffef6",
-    "featured_products",
     "16284512103cad8520",
     "16284512746d6f5dbd"
   ]
