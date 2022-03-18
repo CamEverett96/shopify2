@@ -31,9 +31,10 @@
       ],
       "settings": {
         "hero_height": "100vh",
-        "background": "#000000",
+        "image": "shopify:\/\/shop_images\/fresh-rainfall-on-green-leaves.jpg",
+        "background": "#1A1B18",
         "opacity": 50,
-        "info_alignment": "center"
+        "info_alignment": "left"
       }
     },
     "1628451172c00fbb03": {
