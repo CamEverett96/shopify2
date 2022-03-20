@@ -1,21 +1,5 @@
 {
   "sections": {
-    "162845116200ef6b93": {
-      "type": "hero-two",
-      "settings": {
-        "hero_height": "100vh",
-        "image1": "shopify:\/\/shop_images\/portrait-of-man-with-plant.jpg",
-        "background1": "#1a93e6",
-        "opacity1": 50,
-        "button_label1": "Button label",
-        "button_link1": "",
-        "image2": "shopify:\/\/shop_images\/fashion-model-in-pink.jpg",
-        "background2": "#c2b3a5",
-        "opacity2": 50,
-        "button_label2": "Button label",
-        "button_link2": ""
-      }
-    },
     "1628451172c00fbb03": {
       "type": "collection-group",
       "blocks": {
@@ -63,7 +47,7 @@
           "type": "heading",
           "settings": {
             "title": "Welcome!",
-            "title_size": "md"
+            "title_size": "sm"
           }
         },
         "1628451142ba22e7a3-1": {
@@ -86,11 +70,11 @@
         "1628451142ba22e7a3-2"
       ],
       "settings": {
-        "hero_height": "100vh",
+        "hero_height": "50vh",
         "image": "shopify:\/\/shop_images\/fresh-rainfall-on-green-leaves.jpg",
-        "background": "#1A1B18",
+        "background": "#1a1b18",
         "opacity": 50,
-        "info_alignment": "left"
+        "info_alignment": "center"
       }
     },
     "16284512746d6f5dbd": {
@@ -170,7 +154,7 @@
         "total_products": 4,
         "container_shape": "rectangle",
         "image_fit": "contain",
-        "background": "#FFFFFF",
+        "background": "#ffffff",
         "opacity": 100,
         "show_title": true,
         "show_price": true,
@@ -183,7 +167,6 @@
     }
   },
   "order": [
-    "162845116200ef6b93",
     "1628451172c00fbb03",
     "1628451142ba22e7a3",
     "16284512746d6f5dbd",
