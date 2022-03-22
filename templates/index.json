@@ -32,8 +32,8 @@
       "settings": {
         "hero_height": "100vh",
         "image": "shopify:\/\/shop_images\/pexels-godisable-jacob-896291.jpg",
-        "background": "#1a1b18",
-        "opacity": 28,
+        "background": "#a1450d",
+        "opacity": 37,
         "info_alignment": "center"
       }
     },
