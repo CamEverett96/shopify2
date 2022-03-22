@@ -128,21 +128,28 @@
           "settings": {
             "collection": "converse"
           }
+        },
+        "415eb2f7-8753-4636-a603-2859642fb94e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nike"
+          }
         }
       },
       "block_order": [
         "164757020657532cc1-0",
-        "164757020657532cc1-1"
+        "164757020657532cc1-1",
+        "415eb2f7-8753-4636-a603-2859642fb94e"
       ],
       "settings": {
         "container_shape": "square",
         "image_fit": "contain",
-        "background": "#f7f5f5",
+        "background": "#FFFFFF",
         "opacity": 44,
         "show_title": true,
         "xxl_col": "col-xxl-6",
         "xl_col": "col-xl-6",
-        "lg_col": "col-lg-6",
+        "lg_col": "col-lg-4",
         "md_col": "col-md-6",
         "sm_col": "col-sm-6"
       }
