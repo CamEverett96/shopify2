@@ -122,6 +122,12 @@
           "settings": {
             "collection": "herschel"
           }
+        },
+        "2265af85-9c0d-4918-956d-646275f6f7ec": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "palladuim"
+          }
         }
       },
       "block_order": [
@@ -129,7 +135,8 @@
         "1628451172c00fbb03-1",
         "1628451172c00fbb03-2",
         "279ebbb4-1561-4fb6-b7d2-c74a0376c38c",
-        "0a7cbab3-257d-427e-a111-464634720ba7"
+        "0a7cbab3-257d-427e-a111-464634720ba7",
+        "2265af85-9c0d-4918-956d-646275f6f7ec"
       ],
       "settings": {
         "container_shape": "circle",
