@@ -181,25 +181,11 @@
           "settings": {
             "collection": "converse"
           }
-        },
-        "415eb2f7-8753-4636-a603-2859642fb94e": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "nike"
-          }
-        },
-        "0fe0b75d-8ebd-4c2d-b558-ca773dbfc774": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "asics-tiger"
-          }
         }
       },
       "block_order": [
         "164757020657532cc1-0",
-        "164757020657532cc1-1",
-        "415eb2f7-8753-4636-a603-2859642fb94e",
-        "0fe0b75d-8ebd-4c2d-b558-ca773dbfc774"
+        "164757020657532cc1-1"
       ],
       "settings": {
         "container_shape": "square",
