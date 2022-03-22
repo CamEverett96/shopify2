@@ -147,8 +147,8 @@
         "background": "#FFFFFF",
         "opacity": 44,
         "show_title": true,
-        "xxl_col": "col-xxl-6",
-        "xl_col": "col-xl-6",
+        "xxl_col": "col-xxl-4",
+        "xl_col": "col-xl-4",
         "lg_col": "col-lg-4",
         "md_col": "col-md-6",
         "sm_col": "col-sm-6"
