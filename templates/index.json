@@ -109,7 +109,7 @@
         "show_title": true,
         "xxl_col": "col-xxl-4",
         "xl_col": "col-xl-4",
-        "lg_col": "col-lg-6",
+        "lg_col": "col-lg-4",
         "md_col": "col-md-6",
         "sm_col": "col-sm-4"
       }
