@@ -3,13 +3,27 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
+        "blocks": {
+          "36ffa372-c3ab-43c3-8eb9-708bed498e8f": {
+            "type": "announcement",
+            "settings": {
+              "text": "40% off first purchase over $50!",
+              "background_color": "#1a1b18",
+              "announcement_text_color": "#FFFFFF",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "36ffa372-c3ab-43c3-8eb9-708bed498e8f"
+        ],
         "settings": {
         }
       },
       "header": {
         "type": "header",
         "settings": {
-          "header_type": "header3",
+          "header_type": "header1",
           "logo_width": 100,
           "menu": "main-menu",
           "menu_two": ""
