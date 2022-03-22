@@ -110,12 +110,19 @@
           "settings": {
             "collection": "nike"
           }
+        },
+        "279ebbb4-1561-4fb6-b7d2-c74a0376c38c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "converse"
+          }
         }
       },
       "block_order": [
         "1628451172c00fbb03-0",
         "1628451172c00fbb03-1",
-        "1628451172c00fbb03-2"
+        "1628451172c00fbb03-2",
+        "279ebbb4-1561-4fb6-b7d2-c74a0376c38c"
       ],
       "settings": {
         "container_shape": "circle",
@@ -128,6 +135,43 @@
         "lg_col": "col-lg-6",
         "md_col": "col-md-6",
         "sm_col": "col-sm-4"
+      }
+    },
+    "164797135936fea4e9": {
+      "type": "hero-one",
+      "blocks": {
+        "164797135977e2e9ff-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Shop Accessories",
+            "title_size": "md"
+          }
+        },
+        "164797135977e2e9ff-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Cant forget to add a little extra sauce !"
+          }
+        },
+        "164797135977e2e9ff-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164797135977e2e9ff-0",
+        "164797135977e2e9ff-1",
+        "164797135977e2e9ff-2"
+      ],
+      "settings": {
+        "hero_height": "50vh",
+        "image": "shopify:\/\/shop_images\/man-adjusts-his-shirt-cuffs-below-watch.jpg",
+        "background": "#000000",
+        "opacity": 50,
+        "info_alignment": "right"
       }
     },
     "1647570206ee5baaf1": {
@@ -187,43 +231,6 @@
         "md_col": "col-md-4",
         "sm_col": "col-sm-6"
       }
-    },
-    "164797135936fea4e9": {
-      "type": "hero-one",
-      "blocks": {
-        "164797135977e2e9ff-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Shop Accessories",
-            "title_size": "md"
-          }
-        },
-        "164797135977e2e9ff-1": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Cant forget to add a little extra sauce !"
-          }
-        },
-        "164797135977e2e9ff-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "164797135977e2e9ff-0",
-        "164797135977e2e9ff-1",
-        "164797135977e2e9ff-2"
-      ],
-      "settings": {
-        "hero_height": "50vh",
-        "image": "shopify:\/\/shop_images\/man-adjusts-his-shirt-cuffs-below-watch.jpg",
-        "background": "#000000",
-        "opacity": 50,
-        "info_alignment": "right"
-      }
     }
   },
   "order": [
@@ -231,8 +238,8 @@
     "1647968604edeb78e0",
     "16284512746d6f5dbd",
     "1628451172c00fbb03",
+    "164797135936fea4e9",
     "1647570206ee5baaf1",
-    "164757088328e2d877",
-    "164797135936fea4e9"
+    "164757088328e2d877"
   ]
 }
