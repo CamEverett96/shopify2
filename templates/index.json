@@ -116,13 +116,20 @@
           "settings": {
             "collection": "converse"
           }
+        },
+        "0a7cbab3-257d-427e-a111-464634720ba7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "herschel"
+          }
         }
       },
       "block_order": [
         "1628451172c00fbb03-0",
         "1628451172c00fbb03-1",
         "1628451172c00fbb03-2",
-        "279ebbb4-1561-4fb6-b7d2-c74a0376c38c"
+        "279ebbb4-1561-4fb6-b7d2-c74a0376c38c",
+        "0a7cbab3-257d-427e-a111-464634720ba7"
       ],
       "settings": {
         "container_shape": "circle",
@@ -194,12 +201,19 @@
           "settings": {
             "collection": "nike"
           }
+        },
+        "0fe0b75d-8ebd-4c2d-b558-ca773dbfc774": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "asics-tiger"
+          }
         }
       },
       "block_order": [
         "164757020657532cc1-0",
         "164757020657532cc1-1",
-        "415eb2f7-8753-4636-a603-2859642fb94e"
+        "415eb2f7-8753-4636-a603-2859642fb94e",
+        "0fe0b75d-8ebd-4c2d-b558-ca773dbfc774"
       ],
       "settings": {
         "container_shape": "square",
@@ -207,9 +221,9 @@
         "background": "#ffffff",
         "opacity": 44,
         "show_title": true,
-        "xxl_col": "col-xxl-4",
-        "xl_col": "col-xl-4",
-        "lg_col": "col-lg-4",
+        "xxl_col": "col-xxl-6",
+        "xl_col": "col-xl-6",
+        "lg_col": "col-lg-6",
         "md_col": "col-md-6",
         "sm_col": "col-sm-6"
       }
