@@ -24,6 +24,7 @@
         "type": "header",
         "settings": {
           "header_type": "header3",
+          "logo": "shopify:\/\/shop_images\/278551674_397882805232040_5997944673102412270_n_1.jpg",
           "logo_width": 100,
           "menu": "main-menu",
           "menu_two": ""
