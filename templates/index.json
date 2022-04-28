@@ -1,5 +1,42 @@
 {
   "sections": {
+    "16284512746d6f5dbd": {
+      "type": "hero-one",
+      "blocks": {
+        "16284512746d6f5dbd-0": {
+          "type": "heading",
+          "settings": {
+            "title": "30% off!",
+            "title_size": "md"
+          }
+        },
+        "16284512746d6f5dbd-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Shop now limited time offer on all products!"
+          }
+        },
+        "16284512746d6f5dbd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Dont miss out!",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16284512746d6f5dbd-0",
+        "16284512746d6f5dbd-1",
+        "16284512746d6f5dbd-2"
+      ],
+      "settings": {
+        "hero_height": "75vh",
+        "image": "shopify:\/\/shop_images\/278551674_397882805232040_5997944673102412270_n_1.jpg",
+        "background": "#1A1B18",
+        "opacity": 43,
+        "info_alignment": "center"
+      }
+    },
     "1647973714b0c279e3": {
       "type": "hero-two",
       "settings": {
@@ -100,43 +137,6 @@
         "sm_col": "col-sm-4"
       }
     },
-    "16284512746d6f5dbd": {
-      "type": "hero-one",
-      "blocks": {
-        "16284512746d6f5dbd-0": {
-          "type": "heading",
-          "settings": {
-            "title": "30% off!",
-            "title_size": "xl"
-          }
-        },
-        "16284512746d6f5dbd-1": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Shop now limited time offer on all products!"
-          }
-        },
-        "16284512746d6f5dbd-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Dont miss out!",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16284512746d6f5dbd-0",
-        "16284512746d6f5dbd-1",
-        "16284512746d6f5dbd-2"
-      ],
-      "settings": {
-        "hero_height": "75vh",
-        "image": "shopify:\/\/shop_images\/278551674_397882805232040_5997944673102412270_n_1.jpg",
-        "background": "#b14d8c",
-        "opacity": 43,
-        "info_alignment": "center"
-      }
-    },
     "1647968604edeb78e0": {
       "type": "hero-two",
       "settings": {
@@ -149,39 +149,6 @@
         "opacity2": 50,
         "button_label2": "Shop Bags",
         "button_link2": ""
-      }
-    },
-    "1647570206ee5baaf1": {
-      "type": "collection-group",
-      "blocks": {
-        "164757020657532cc1-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "timberland"
-          }
-        },
-        "164757020657532cc1-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "converse"
-          }
-        }
-      },
-      "block_order": [
-        "164757020657532cc1-0",
-        "164757020657532cc1-1"
-      ],
-      "settings": {
-        "container_shape": "square",
-        "image_fit": "contain",
-        "background": "#ffffff",
-        "opacity": 44,
-        "show_title": true,
-        "xxl_col": "col-xxl-6",
-        "xl_col": "col-xl-6",
-        "lg_col": "col-lg-6",
-        "md_col": "col-md-6",
-        "sm_col": "col-sm-6"
       }
     },
     "164797135936fea4e9": {
@@ -240,12 +207,11 @@
     }
   },
   "order": [
+    "16284512746d6f5dbd",
     "1647973714b0c279e3",
     "1628451142ba22e7a3",
     "1628451172c00fbb03",
-    "16284512746d6f5dbd",
     "1647968604edeb78e0",
-    "1647570206ee5baaf1",
     "164797135936fea4e9",
     "164757088328e2d877"
   ]
