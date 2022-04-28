@@ -9,7 +9,7 @@
             "settings": {
               "text": "40% off first purchase over $50!",
               "background_color": "#1a1b18",
-              "announcement_text_color": "#FFFFFF",
+              "announcement_text_color": "#ffffff",
               "link": ""
             }
           }
@@ -23,7 +23,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "header_type": "header1",
+          "header_type": "header3",
           "logo_width": 100,
           "menu": "main-menu",
           "menu_two": ""
@@ -36,21 +36,21 @@
             "type": "link_list",
             "settings": {
               "heading": "Quick links",
-              "menu": "quick-links"
+              "menu": ""
             }
           },
           "0cadedd9-1413-4771-a9ca-a58c54afd556": {
             "type": "link_list",
             "settings": {
               "heading": "Quick links",
-              "menu": "quick-links"
+              "menu": ""
             }
           },
           "43508adb-9cb3-4208-8154-4e52b70c2fa3": {
             "type": "link_list",
             "settings": {
               "heading": "Quick links",
-              "menu": "main-menu-2"
+              "menu": ""
             }
           },
           "9278dfeb-e3d3-4d59-a467-40dc68072aa8": {

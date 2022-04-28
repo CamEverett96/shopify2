@@ -4,12 +4,12 @@
       "type": "hero-two",
       "settings": {
         "hero_height": "100vh",
-        "image1": "shopify:\/\/shop_images\/pexels-lucretius-mooka-7896997.jpg",
+        "image1": "shopify:\/\/shop_images\/278361361_730123881687935_5954508773603339999_n.jpg",
         "background1": "#000000",
         "opacity1": 50,
         "button_label1": "Men",
         "button_link1": "",
-        "image2": "shopify:\/\/shop_images\/pexels-wesley-rocha-3829491.jpg",
+        "image2": "shopify:\/\/shop_images\/278851587_563127134998341_8665836834578211730_n.jpg",
         "background2": "#000000",
         "opacity2": 50,
         "button_label2": "Women",
@@ -47,7 +47,6 @@
       ],
       "settings": {
         "hero_height": "100vh",
-        "image": "shopify:\/\/shop_images\/pexels-felipe-silveira-2932418.jpg",
         "background": "#181615",
         "opacity": 46,
         "info_alignment": "center"
@@ -145,7 +144,6 @@
       ],
       "settings": {
         "hero_height": "75vh",
-        "image": "shopify:\/\/shop_images\/wallet-cash.jpg",
         "background": "#000000",
         "opacity": 50,
         "info_alignment": "center"
@@ -155,12 +153,10 @@
       "type": "hero-two",
       "settings": {
         "hero_height": "100vh",
-        "image1": "shopify:\/\/shop_images\/pexels-erik-mclean-7543641.jpg",
         "background1": "#000000",
         "opacity1": 50,
         "button_label1": "Shop Shoes",
         "button_link1": "",
-        "image2": "shopify:\/\/shop_images\/pexels-godisable-jacob-934673.jpg",
         "background2": "#000000",
         "opacity2": 50,
         "button_label2": "Shop Bags",
@@ -231,7 +227,6 @@
       ],
       "settings": {
         "hero_height": "50vh",
-        "image": "shopify:\/\/shop_images\/man-adjusts-his-shirt-cuffs-below-watch.jpg",
         "background": "#000000",
         "opacity": 50,
         "info_alignment": "left"
