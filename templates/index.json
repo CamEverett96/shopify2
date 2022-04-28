@@ -6,7 +6,7 @@
         "16284512746d6f5dbd-0": {
           "type": "heading",
           "settings": {
-            "title": "30% off!",
+            "title": "",
             "title_size": "md"
           }
         },
@@ -19,7 +19,7 @@
         "16284512746d6f5dbd-2": {
           "type": "button",
           "settings": {
-            "button_label": "Dont miss out!",
+            "button_label": "Book Now",
             "button_link": ""
           }
         }
@@ -30,10 +30,10 @@
         "16284512746d6f5dbd-2"
       ],
       "settings": {
-        "hero_height": "75vh",
+        "hero_height": "100vh",
         "image": "shopify:\/\/shop_images\/278551674_397882805232040_5997944673102412270_n_1.jpg",
         "background": "#1a1b18",
-        "opacity": 43,
+        "opacity": 61,
         "info_alignment": "center"
       }
     },
