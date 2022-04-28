@@ -47,9 +47,10 @@
       ],
       "settings": {
         "hero_height": "100vh",
+        "image": "shopify:\/\/shop_images\/278672313_357384646447110_6716089101064190073_n.jpg",
         "background": "#181615",
         "opacity": 46,
-        "info_alignment": "center"
+        "info_alignment": "left"
       }
     },
     "1628451172c00fbb03": {
