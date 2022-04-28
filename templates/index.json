@@ -59,37 +59,25 @@
         "1628451172c00fbb03-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "adidas"
+            "collection": "bundles"
           }
         },
         "1628451172c00fbb03-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "dr-martens"
+            "collection": "frontals"
           }
         },
         "1628451172c00fbb03-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "nike"
+            "collection": "merch"
           }
         },
         "279ebbb4-1561-4fb6-b7d2-c74a0376c38c": {
           "type": "featured_collection",
           "settings": {
-            "collection": "converse"
-          }
-        },
-        "0a7cbab3-257d-427e-a111-464634720ba7": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "herschel"
-          }
-        },
-        "2265af85-9c0d-4918-956d-646275f6f7ec": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "palladuim"
+            "collection": "glam-glue"
           }
         }
       },
@@ -97,9 +85,7 @@
         "1628451172c00fbb03-0",
         "1628451172c00fbb03-1",
         "1628451172c00fbb03-2",
-        "279ebbb4-1561-4fb6-b7d2-c74a0376c38c",
-        "0a7cbab3-257d-427e-a111-464634720ba7",
-        "2265af85-9c0d-4918-956d-646275f6f7ec"
+        "279ebbb4-1561-4fb6-b7d2-c74a0376c38c"
       ],
       "settings": {
         "container_shape": "circle",
@@ -120,7 +106,7 @@
         "16284512746d6f5dbd-0": {
           "type": "heading",
           "settings": {
-            "title": "40% off!",
+            "title": "30% off!",
             "title_size": "xl"
           }
         },
@@ -145,8 +131,9 @@
       ],
       "settings": {
         "hero_height": "75vh",
-        "background": "#000000",
-        "opacity": 50,
+        "image": "shopify:\/\/shop_images\/278551674_397882805232040_5997944673102412270_n_1.jpg",
+        "background": "#b14d8c",
+        "opacity": 43,
         "info_alignment": "center"
       }
     },
