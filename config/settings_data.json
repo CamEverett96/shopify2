@@ -32,23 +32,11 @@
       },
       "footer": {
         "type": "footer",
-        "blocks": {
-          "0cadedd9-1413-4771-a9ca-a58c54afd556": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Quick links",
-              "menu": ""
-            }
-          }
-        },
-        "block_order": [
-          "0cadedd9-1413-4771-a9ca-a58c54afd556"
-        ],
         "settings": {
-          "footer_p": "Sign up as a member to be the first to know about new arrivals and exclusive deals!",
-          "newsletter_enable": true,
+          "footer_p": "",
+          "newsletter_enable": false,
           "newsletter_heading": "Sign up to our emails",
-          "show_social": true,
+          "show_social": false,
           "footer_bottom_menu": "footer"
         }
       }
