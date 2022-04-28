@@ -94,6 +94,7 @@
       "type": "hero-two",
       "settings": {
         "hero_height": "100vh",
+        "image1": "shopify:\/\/shop_images\/2021-05-22_21-25-42_1621736771.webp",
         "background1": "#000000",
         "opacity1": 50,
         "button_label1": "Braids",
@@ -101,7 +102,7 @@
         "image2": "shopify:\/\/shop_images\/2021-05-22_21-25-42_1621736771.webp",
         "background2": "#000000",
         "opacity2": 50,
-        "button_label2": "Shop Bags",
+        "button_label2": "Shop Color",
         "button_link2": ""
       }
     },
