@@ -178,7 +178,7 @@
         "279ebbb4-1561-4fb6-b7d2-c74a0376c38c"
       ],
       "settings": {
-        "container_shape": "circle",
+        "container_shape": "square",
         "image_fit": "contain",
         "background": "#ffffff",
         "opacity": 100,
@@ -193,7 +193,7 @@
     "164757088328e2d877": {
       "type": "collection-products-1",
       "settings": {
-        "collection": "products",
+        "collection": "frontals",
         "total_products": 12,
         "container_shape": "rectangle",
         "image_fit": "contain",
