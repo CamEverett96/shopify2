@@ -32,7 +32,7 @@
       "settings": {
         "hero_height": "75vh",
         "image": "shopify:\/\/shop_images\/278551674_397882805232040_5997944673102412270_n_1.jpg",
-        "background": "#1A1B18",
+        "background": "#1a1b18",
         "opacity": 43,
         "info_alignment": "center"
       }
@@ -193,7 +193,7 @@
     "164757088328e2d877": {
       "type": "collection-products-1",
       "settings": {
-        "collection": "frontals",
+        "collection": "hair",
         "total_products": 12,
         "container_shape": "rectangle",
         "image_fit": "contain",
