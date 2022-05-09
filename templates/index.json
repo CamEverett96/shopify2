@@ -16,43 +16,6 @@
         "button_link2": "shopify:\/\/collections\/all"
       }
     },
-    "16284512746d6f5dbd": {
-      "type": "hero-one",
-      "blocks": {
-        "16284512746d6f5dbd-0": {
-          "type": "heading",
-          "settings": {
-            "title": "",
-            "title_size": "md"
-          }
-        },
-        "16284512746d6f5dbd-1": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Isaiah 61:3 “…to bestow on them a crown of beauty instead of ashes, the oil of joy instead of mourning, and a garment of praise instead of a spirit of despair.\""
-          }
-        },
-        "16284512746d6f5dbd-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Book Now",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16284512746d6f5dbd-0",
-        "16284512746d6f5dbd-1",
-        "16284512746d6f5dbd-2"
-      ],
-      "settings": {
-        "hero_height": "100vh",
-        "image": "shopify:\/\/shop_images\/weight-lifting-man.jpg",
-        "background": "#1a1b18",
-        "opacity": 50,
-        "info_alignment": "center"
-      }
-    },
     "1628451172c00fbb03": {
       "type": "collection-group",
       "blocks": {
@@ -137,6 +100,43 @@
         "info_alignment": "left"
       }
     },
+    "16284512746d6f5dbd": {
+      "type": "hero-one",
+      "blocks": {
+        "16284512746d6f5dbd-0": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "title_size": "md"
+          }
+        },
+        "16284512746d6f5dbd-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Isaiah 61:3 “…to bestow on them a crown of beauty instead of ashes, the oil of joy instead of mourning, and a garment of praise instead of a spirit of despair.\""
+          }
+        },
+        "16284512746d6f5dbd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16284512746d6f5dbd-0",
+        "16284512746d6f5dbd-1",
+        "16284512746d6f5dbd-2"
+      ],
+      "settings": {
+        "hero_height": "100vh",
+        "image": "shopify:\/\/shop_images\/278655029_3060632130824507_3413793609975955921_n.jpg",
+        "background": "#1a1b18",
+        "opacity": 50,
+        "info_alignment": "center"
+      }
+    },
     "1647968604edeb78e0": {
       "type": "hero-two",
       "settings": {
@@ -211,9 +211,9 @@
   },
   "order": [
     "1647973714b0c279e3",
-    "16284512746d6f5dbd",
     "1628451172c00fbb03",
     "1628451142ba22e7a3",
+    "16284512746d6f5dbd",
     "1647968604edeb78e0",
     "164797135936fea4e9",
     "164757088328e2d877"
