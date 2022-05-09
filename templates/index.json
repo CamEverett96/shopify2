@@ -196,7 +196,7 @@
         "collection": "hair",
         "total_products": 12,
         "container_shape": "square",
-        "image_fit": "contain",
+        "image_fit": "cover",
         "background": "#ffffff",
         "opacity": 100,
         "show_title": true,
