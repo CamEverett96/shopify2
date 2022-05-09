@@ -195,7 +195,7 @@
       "settings": {
         "collection": "hair",
         "total_products": 12,
-        "container_shape": "square",
+        "container_shape": "rectangle",
         "image_fit": "contain",
         "background": "#ffffff",
         "opacity": 100,
