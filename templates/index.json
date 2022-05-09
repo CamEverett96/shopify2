@@ -4,15 +4,15 @@
       "type": "hero-two",
       "settings": {
         "hero_height": "100vh",
-        "image1": "shopify:\/\/shop_images\/man-dressed-in-monochrome-by-white-wall.jpg",
+        "image1": "shopify:\/\/shop_images\/278851587_563127134998341_8665836834578211730_n_e17e871e-56af-4267-b25a-567cff450a64.jpg",
         "background1": "#000000",
         "opacity1": 50,
-        "button_label1": "Mens",
+        "button_label1": "Bundles",
         "button_link1": "shopify:\/\/collections\/all",
-        "image2": "shopify:\/\/shop_images\/model-with-leather-jacket-over-shoulders.jpg",
+        "image2": "shopify:\/\/shop_images\/278672313_357384646447110_6716089101064190073_n_745436b4-bd5a-4c73-8e65-aedbb6f30b23.jpg",
         "background2": "#000000",
         "opacity2": 50,
-        "button_label2": "Women",
+        "button_label2": "Wigs",
         "button_link2": "shopify:\/\/collections\/all"
       }
     },
