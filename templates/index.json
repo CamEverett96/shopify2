@@ -200,7 +200,7 @@
         "background": "#ffffff",
         "opacity": 100,
         "show_title": true,
-        "show_price": false,
+        "show_price": true,
         "xxl_col": "col-xxl-4",
         "xl_col": "col-xl-4",
         "lg_col": "col-lg-4",
