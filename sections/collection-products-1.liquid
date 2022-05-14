@@ -82,8 +82,8 @@
 								>
 						</div>
 						<div class="collection1__product-info">
-							<div class="collection1__product-details"><span class="collection1__product-title">Product</span><span
-									class="collection1__product-price">$250</span></div>
+							<div class="collection1__product-details"><span class="collection1__product-title">{{ product.title }}</span><span
+									class="collection1__product-price">{{ product.price }}</span></div>
 							<div class="collection1__colors">
 								<div class="collection1__color collection1__color--blue"></div>
 								<div class="collection1__color collection1__color--black"></div>
@@ -111,8 +111,8 @@
 								>
 						</div>
 						<div class="collection1__product-info">
-							<div class="collection1__product-details"><span class="collection1__product-title">Product</span><span
-									class="collection1__product-price">$250</span></div>
+							<div class="collection1__product-details"><span class="collection1__product-title">{{ product.title }}</span><span
+									class="collection1__product-price">{{ product.price }}</span></div>
 							<div class="collection1__colors">
 								<div class="collection1__color collection1__color--blue"></div>
 								<div class="collection1__color collection1__color--white"></div>
@@ -140,8 +140,8 @@
 								>
 						</div>
 						<div class="collection1__product-info">
-							<div class="collection1__product-details"><span class="collection1__product-title">Product</span><span
-									class="collection1__product-price">$250</span>
+							<div class="collection1__product-details"><span class="collection1__product-title">{{ product.title }}</span><span
+									class="collection1__product-price">{{ product.price }}</span>
 									<div>
 										{% for block in section.blocks %}
 											{% case block.type %}
