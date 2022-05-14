@@ -23,7 +23,7 @@
 		{% assign opacity1 = section.settings.opacity1 | divided_by: 100.00 %}
 		<div class="hero2__content-container" style="background-color: {{ section.settings.background1 | color_modify: 'alpha', opacity1  }}">
 			{%- if section.settings.button_label1 != blank -%}
-				<a href="{{ section.settings.button_link1 }}" class="hero2__button" {{ section.shopify_attributes }} >
+				<a href="{{ section.settings.button_link1 }}" class="hero2__buttonL" {{ section.shopify_attributes }} >
 					{{ section.settings.button_label1 | escape }}
 				</a>
 			{%- endif -%}
@@ -52,7 +52,7 @@
 		<div class="hero2__content-container" style="background-color: {{ section.settings.background2 | color_modify: 'alpha', opacity2  }}">
 			<div class="hero2__info">
 				{%- if section.settings.button_label2 != blank -%}
-					<a href="{{ section.settings.button_link2 }}" class="hero2__button" {{ section.shopify_attributes }}>
+					<a href="{{ section.settings.button_link2 }}" class="hero2__buttonR" {{ section.shopify_attributes }}>
 						{{ section.settings.button_label2 | escape }}
 					</a>
 				{%- endif -%}

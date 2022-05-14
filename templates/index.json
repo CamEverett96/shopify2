@@ -1,221 +1,91 @@
 {
   "sections": {
-    "1647973714b0c279e3": {
-      "type": "hero-two",
-      "settings": {
-        "hero_height": "100vh",
-        "image1": "shopify:\/\/shop_images\/278851587_563127134998341_8665836834578211730_n_e17e871e-56af-4267-b25a-567cff450a64.jpg",
-        "background1": "#000000",
-        "opacity1": 50,
-        "button_label1": "Bundles",
-        "button_link1": "shopify:\/\/collections\/all",
-        "image2": "shopify:\/\/shop_images\/278672313_357384646447110_6716089101064190073_n_745436b4-bd5a-4c73-8e65-aedbb6f30b23.jpg",
-        "background2": "#000000",
-        "opacity2": 50,
-        "button_label2": "Wigs",
-        "button_link2": "shopify:\/\/collections\/all"
-      }
-    },
-    "1628451172c00fbb03": {
-      "type": "collection-group",
+    "image_banner": {
+      "type": "image-banner",
       "blocks": {
-        "1628451172c00fbb03-0": {
-          "type": "featured_collection",
+        "heading": {
+          "type": "heading",
           "settings": {
-            "collection": "bundles"
+            "heading": "Talk about your brand"
           }
         },
-        "1628451172c00fbb03-1": {
-          "type": "featured_collection",
+        "button": {
+          "type": "buttons",
           "settings": {
-            "collection": "frontals"
-          }
-        },
-        "1628451172c00fbb03-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "merch"
-          }
-        },
-        "279ebbb4-1561-4fb6-b7d2-c74a0376c38c": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "glam-glue"
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "1628451172c00fbb03-0",
-        "1628451172c00fbb03-1",
-        "1628451172c00fbb03-2",
-        "279ebbb4-1561-4fb6-b7d2-c74a0376c38c"
+        "heading",
+        "button"
       ],
       "settings": {
-        "container_shape": "square",
-        "image_fit": "contain",
-        "background": "#ffffff",
-        "opacity": 100,
-        "show_title": true,
-        "xxl_col": "col-xxl-4",
-        "xl_col": "col-xl-4",
-        "lg_col": "col-lg-6",
-        "md_col": "col-md-6",
-        "sm_col": "col-sm-4"
+        "image": "shopify:\/\/shop_images\/flatlay-of-coffee-and-computer-on-wooden-surface.jpg",
+        "desktop_text_box_position": "flex-end",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
       }
     },
-    "1628451142ba22e7a3": {
-      "type": "hero-one",
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "collection": "",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
+      }
+    },
+    "image_text": {
+      "type": "image-with-text",
       "blocks": {
-        "1628451142ba22e7a3-0": {
+        "heading": {
           "type": "heading",
           "settings": {
-            "title": "30% Off",
-            "title_size": "lg"
+            "heading": "Image with text"
           }
         },
-        "1628451142ba22e7a3-1": {
-          "type": "paragraph",
+        "text": {
+          "type": "text",
           "settings": {
-            "paragraph": "Limited time offer on bundles!"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
-        "1628451142ba22e7a3-2": {
+        "button": {
           "type": "button",
           "settings": {
-            "button_label": "Shop Bundles",
+            "button_label": "Button label",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "1628451142ba22e7a3-0",
-        "1628451142ba22e7a3-1",
-        "1628451142ba22e7a3-2"
+        "heading",
+        "text",
+        "button"
       ],
       "settings": {
-        "hero_height": "100vh",
-        "image": "shopify:\/\/shop_images\/278600071_5316426998377556_6010950061196885243_n.jpg",
-        "background": "#181615",
-        "opacity": 47,
-        "info_alignment": "left"
-      }
-    },
-    "16284512746d6f5dbd": {
-      "type": "hero-one",
-      "blocks": {
-        "16284512746d6f5dbd-0": {
-          "type": "heading",
-          "settings": {
-            "title": "",
-            "title_size": "md"
-          }
-        },
-        "16284512746d6f5dbd-1": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Isaiah 61:3 “…to bestow on them a crown of beauty instead of ashes, the oil of joy instead of mourning, and a garment of praise instead of a spirit of despair.\""
-          }
-        },
-        "16284512746d6f5dbd-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Book Now",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16284512746d6f5dbd-0",
-        "16284512746d6f5dbd-1",
-        "16284512746d6f5dbd-2"
-      ],
-      "settings": {
-        "hero_height": "100vh",
-        "image": "shopify:\/\/shop_images\/278655029_3060632130824507_3413793609975955921_n.jpg",
-        "background": "#1a1b18",
-        "opacity": 50,
-        "info_alignment": "center"
-      }
-    },
-    "1647968604edeb78e0": {
-      "type": "hero-two",
-      "settings": {
-        "hero_height": "100vh",
-        "image1": "shopify:\/\/shop_images\/2021-05-22_21-25-42_1621736771.webp",
-        "background1": "#000000",
-        "opacity1": 50,
-        "button_label1": "Braids",
-        "button_link1": "",
-        "image2": "shopify:\/\/shop_images\/279310936_1176935596414888_2659066846654355292_n.jpg",
-        "background2": "#000000",
-        "opacity2": 50,
-        "button_label2": "Dyed Hair",
-        "button_link2": ""
-      }
-    },
-    "164797135936fea4e9": {
-      "type": "hero-one",
-      "blocks": {
-        "164797135977e2e9ff-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Glam GLue",
-            "title_size": "lg"
-          }
-        },
-        "164797135977e2e9ff-1": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Cant forget to add a little extra sauce  to keep that lace down!"
-          }
-        },
-        "164797135977e2e9ff-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/products\/glam-glue"
-          }
-        }
-      },
-      "block_order": [
-        "164797135977e2e9ff-0",
-        "164797135977e2e9ff-1",
-        "164797135977e2e9ff-2"
-      ],
-      "settings": {
-        "hero_height": "75vh",
-        "image": "shopify:\/\/shop_images\/s271719889834910354_p49_i1_w308.webp",
-        "background": "#000000",
-        "opacity": 40,
-        "info_alignment": "left"
-      }
-    },
-    "164757088328e2d877": {
-      "type": "collection-products-1",
-      "settings": {
-        "collection": "hair",
-        "total_products": 6,
-        "container_shape": "rectangle",
-        "image_fit": "contain",
-        "background": "#ffffff",
-        "opacity": 100,
-        "show_title": true,
-        "show_price": true,
-        "xxl_col": "col-xxl-3",
-        "xl_col": "col-xl-3",
-        "lg_col": "col-lg-4",
-        "md_col": "col-md-4",
-        "sm_col": "col-sm-6"
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
       }
     }
   },
   "order": [
-    "1647973714b0c279e3",
-    "1628451172c00fbb03",
-    "1628451142ba22e7a3",
-    "16284512746d6f5dbd",
-    "1647968604edeb78e0",
-    "164797135936fea4e9",
-    "164757088328e2d877"
+    "image_banner",
+    "featured_products",
+    "image_text"
   ]
 }

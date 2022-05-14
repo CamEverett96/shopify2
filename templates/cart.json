@@ -25,10 +25,17 @@
       ],
       "settings": {
       }
+    },
+    "featured-products": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all"
+      }
     }
   },
   "order": [
     "cart-items",
-    "cart-footer"
+    "cart-footer",
+    "featured-products"
   ]
 }
