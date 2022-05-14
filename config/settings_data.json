@@ -8,8 +8,8 @@
             "type": "announcement",
             "settings": {
               "text": "Welcome to our store",
-              "background_color": "#ccd654",
-              "announcement_text_color": "#00d633",
+              "background_color": "#000000",
+              "announcement_text_color": "#FFFFFF",
               "link": "shopify:\/\/products\/adidas-classic-backpack"
             }
           }
