@@ -4,18 +4,17 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "36ffa372-c3ab-43c3-8eb9-708bed498e8f": {
+          "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "20% off first purchase over $50!",
-              "background_color": "#1a1b18",
-              "announcement_text_color": "#ffffff",
-              "link": ""
+              "background_color": "#ccd654",
+              "announcement_text_color": "#00d633",
+              "link": "shopify:\/\/products\/adidas-classic-backpack"
             }
           }
         },
         "block_order": [
-          "36ffa372-c3ab-43c3-8eb9-708bed498e8f"
+          "announcement-bar-0"
         ],
         "settings": {
         }
@@ -23,21 +22,32 @@
       "header": {
         "type": "header",
         "settings": {
-          "header_type": "header1",
-          "logo": "shopify:\/\/shop_images\/278551674_397882805232040_5997944673102412270_n_1.jpg",
           "logo_width": 100,
-          "menu": "main-menu",
-          "menu_two": ""
+          "menu": "main-menu"
         }
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0"
+        ],
         "settings": {
-          "footer_p": "",
-          "newsletter_enable": false,
-          "newsletter_heading": "Sign up to our emails",
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "Subscribe to our emails",
           "show_social": false,
-          "footer_bottom_menu": "footer"
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
         }
       }
     },
