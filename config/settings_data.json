@@ -7,6 +7,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
+              "text": "Welcome to our store",
               "background_color": "#ccd654",
               "announcement_text_color": "#00d633",
               "link": "shopify:\/\/products\/adidas-classic-backpack"
@@ -22,8 +23,10 @@
       "header": {
         "type": "header",
         "settings": {
+          "header_type": "header2",
           "logo_width": 100,
-          "menu": "main-menu"
+          "menu": "main-menu",
+          "menu_two": "main-menu"
         }
       },
       "footer": {
